@@ -1,0 +1,57 @@
+<html lang="pt-br">
+<head>
+	<title>formulário</title>
+	<meta charset="utf-8">
+</head>
+<body><table>
+<h2>Dúvidas ou sugestões?</h2>
+
+<form action="/pagina-processa-dados" method="post">
+
+<div>
+<label for="Nome"><b> Nome:</b>
+<input type="text" id="nome" size="20" maxlength="20"/>
+</div>
+
+<br>
+
+<div>
+<label for="email"><b>Email:</b> </label>
+<input type="text" id="email"/>
+</div>
+
+<br>
+
+<div>
+<label for="msg"> <b> Mensagem:</b> </label>
+<textarea id="msg"> </textarea>
+</div>
+
+<br>
+
+<div>
+<label for="cidade"> <b> Tipo:</b> </label>
+<select name="cidade"> 
+<option value="sa"> Dúvida </option>
+<option value="sb"> Sugestão </option>
+</select>
+</div>
+
+<br>
+
+<div>
+<label for="sexo"> <b> Sexo:</b> </label>
+<input type="radio" name="sexo"  Value="M" checked>Masculino
+<input type="radio" name="sexo"  Value="F">Feminino
+</div>
+<br>
+
+<div class=button>
+<button type="submit"> Enviar </button>
+<class=button>	
+<button type="reset"> Limpar </button>
+</div>
+</form>
+
+</class=button></div></form></body>
+</html>
