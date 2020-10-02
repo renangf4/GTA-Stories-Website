@@ -1,0 +1,2 @@
+$(window).on('load',function(){$('#status').fadeOut();$('#preloader').delay(350).fadeOut('slow');$('body').delay(350).css({'overflow':'visible'})})
+$('.anchor').click(function(event){var id=$(this).attr('href'),targetOffset=$(id).offset().top-58;$('html, body').animate({scrollTop:targetOffset},2000)})
